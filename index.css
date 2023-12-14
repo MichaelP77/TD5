@@ -1,0 +1,57 @@
+#primary, #secondary, #warning, #danger, #success, #info {
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 0.1%;
+    height: 40px;
+    border-color: white;
+  }
+  
+  #primary, #secondary, #danger, #success {
+    color: white;
+  }
+  
+  #warning, #info {
+    color: black;
+  }
+  
+  #primary {
+    background-color: #0d6efd;
+    margin-top: 15%;
+  }
+  
+  #secondary {
+    background-color: #6c757d;
+  }
+  
+  #warning {
+    background-color: #ffc107;
+  }
+  
+  #danger {
+    background: #dc3545;
+  }
+  
+  #success {
+    background-color: #198754;
+  }
+  
+  #info {
+    background-color: #0dcaf0;
+  }
+  
+  #notification {
+    position: fixed;
+    bottom: -14rem;
+    color: black;
+    background: #0dcaf0;
+    padding: 15px 15px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 72%;
+    width: 300px;
+  }
+  
+  #notification.show {
+    bottom: 20px;
+  }
+  
